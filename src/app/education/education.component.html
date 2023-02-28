@@ -1,0 +1,84 @@
+<div class ="container">
+    <h1>APPLICANT INFORMATION</h1>
+    <form (ngSubmit)="submit(login)">
+        <div class="form-group">
+            <label for="firstname">first name :  </label>
+            <input type="text" name = "firstname" class="form-control" ngModel>
+        </div>
+        <pre></pre>
+        <div class="form-group">
+            <label for="lastname">last name : </label>
+            <input type="text" name = "lastname" class="form-control" ngModel>
+        </div>
+        <pre></pre>
+        <div class="form-group">
+            <label for="father's name">Father's name : </label>
+            <input type="text" name = "father's name" class="form-control" ngModel>
+        </div>
+        <pre></pre>
+        <div class="form-group">
+            <label for="Mother's name">Mother's name : </label>
+            <input type="text" name = "Mother's name" class="form-control" ngModel>
+        </div>
+        <pre></pre>
+        <div class="form-group">
+            <label for="Spouse">Spouse's name** : </label>
+            <input type="text" name = "Spouse" class="form-control" ngModel><br>
+            **Write N/A if not applicable
+        </div>
+        <pre></pre>
+        <div class="form-group">
+            <label for="DateOfBirth">Date of Birth : </label>
+            <input type="date" name = "DateOfBirth" class="form-control" ngModel>
+        </div>
+        <pre></pre>
+        <div class="form-group">
+            <label for="Present_address">Present Address : </label>
+            <input type="any" name = "Present_address" class="form-control" ngModel>
+        </div>
+        <pre></pre>
+        <div class="form-group">
+            <label for="Permanent_address">Permanent address : </label>
+            <input type="any" name = "Permanent_address" class="form-control" ngModel>
+        </div>
+        <pre></pre>
+        <div class="form-group">
+            <label for="Mobile">Mobile No. : </label>
+            <input type="number" name = "Mobile" class="form-control" ngModel>
+        </div>
+        <pre></pre>
+        <div class="form-group">
+            <label for="PAN">Applicant's PAN No. : </label>
+            <input type="any" name = "PAN" class="form-control" ngModel>
+        </div>
+        <pre></pre>
+        <div class="form-group">
+            <label for="Relation">Applicant's Relationship with the deceased Person : </label>
+            <input type="text" name = "PAN" class="form-control" ngModel>
+        </div>
+        <div class="form-group">
+            <label for="Minor">Is applicant Minor : </label>
+            <input type="radio" id ="1" name = "Minor" class="form-control" value="Yes" ngModel>
+            <label for="1"> Yes</label>
+            <input type="radio" id ="2" name = "Minor" class="form-control" value="No" ngModel>
+            <label  for="2">No</label>
+        </div>
+        <pre></pre>
+        <div class="form-group">
+            <label for="Parent">Is applicant Single Parent : </label>
+            <select name="Parent" id="Parent">
+                <option value="Yes"> Yes</option>
+                <option value="No"> No</option>
+            </select>
+            <pre></pre>
+        </div>
+        <pre></pre>
+        <div class="form-group">
+            <label for="otheraid">Other Aid provided to Applicant  : </label>
+            <input type="text" name = "otheraid" class="form-control" ngModel>
+        </div>
+        <pre></pre>
+        <div>
+            <button class="btn btn-primary" type="submit">submit</button>
+
+        </div>

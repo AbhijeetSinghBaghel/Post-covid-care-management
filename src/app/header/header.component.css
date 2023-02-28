@@ -1,0 +1,10 @@
+.navbar{
+    background-color: lightcoral;
+    width: 100%;
+    font-family: cursive;
+    height: 100px;
+    font-size: 35px;
+}
+.center{
+    text-align: center;
+}

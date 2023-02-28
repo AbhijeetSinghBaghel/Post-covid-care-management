@@ -1,0 +1,12 @@
+{
+    
+        "students": [
+          {
+            "firstname": "student1",
+            "lastname" : "dhjgl",
+            "email": "st1@mail.com",
+            "id": 1,
+            "password" : "kdjhglir"
+          }
+        ]
+      }

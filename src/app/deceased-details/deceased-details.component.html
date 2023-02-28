@@ -1,0 +1,77 @@
+<p><div class ="container">
+    <h1>details of deceased Person</h1>
+    <form (ngSubmit)="submit(login)">
+        <div class="form-group">
+            <label for="firstname">first name :  </label>
+            <input type="text" name = "firstname" class="form-control" ngModel>
+        </div>
+        <pre></pre>
+        <div class="form-group">
+            <label for="lastname">last name : </label>
+            <input type="text" name = "lastname" class="form-control" ngModel>
+            
+        </div>
+        <pre></pre>
+        <div class="form-group">
+            <label for="Aadhar No.">Aadhar No. :  </label>
+            <input type="number" name = "Aadhar" class="form-control" ngModel>
+        </div>
+        <pre></pre>
+        <div class="form-group">
+        <label for="address">Address : </label>
+            <input type="any" name ="Address" class="form-control" ngModel>
+        </div>
+        <pre></pre>
+        <div class="form-group">
+            <label for="Mother's name">Mother's name : </label>
+                <input type="text" name ="Mother's name" class="form-control" ngModel>
+            </div>
+            <pre></pre>
+            <div class="form-group">
+                <label for="Father's name">Father's name : </label>
+                    <input type="text" name ="Father's name" class="form-control" ngModel>
+                </div>
+                <pre></pre>
+                <div class="form-group">
+                    <label for="Spouse">Spouse's name : </label>
+                        <input type="text" name ="Spouse" class="form-control" ngModel>
+                    </div>
+                    <pre></pre>
+        <button class="btn btn-primary" type="submit">submit</button>
+
+        <div class="Deatils">
+            <h2>Death Details</h2>
+            <form class="well">
+                <div class="form-group">
+                    <label for="Date Of Birth">Date Of Birth :  </label>
+                    <input type="date" name = "Date Of Birth" class="form-control" ngModel>
+                </div>
+                <pre></pre>
+                <div class="form-group">
+                    <label for="Date Of Death">Date Of Death :  </label>
+                    <input type="date" name = "Date Of Death" class="form-control" ngModel>
+                </div>
+                <pre></pre>
+                <div class="form-group">
+                    <label for="Death due to covid">Is Death due to Covid:  </label>
+                    <input type="radio" id ="1" name = "Death_due_to_covid" class="form-control" value="Yes" ngModel>
+                    <label for="1"> Yes</label>
+                    <input type="radio" id ="2" name = "Death_due_to_covid" class="form-control" value="No" ngModel>
+                    <label  for="2">No</label>
+                    <pre></pre>
+                <div class="form-group">
+                    <label for="Death Certificate No.">Death Certificate No. :  </label>
+                    <input type="any" name = "Death Certificate No." class="form-control" ngModel>
+                </div>
+                <pre></pre>
+                    <div class="form-group">
+                    <h1>Please Upload the death certificate</h1>
+                    <label for="Death Certificate proof">Death Certificate proof :  </label>
+                    <input type="file"  id = "myfile" name = "Death Certificate No." class="form-control" ngModel>
+                    </div>
+                    <button class="btn btn-primary" type="submit">submit</button>
+        </div>      <pre></pre>
+    </form>
+</div>
+
+        
